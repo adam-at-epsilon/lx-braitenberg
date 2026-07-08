@@ -10,6 +10,9 @@ upper_hsv = np.array([30, 255, 255])
 # lower_hsv = np.array([12, 89, 76])
 # upper_hsv = np.array([31, 255, 255])
 
+# from LX02 Image filtering
+lower_hsv = np.array([0, 36, 102])
+upper_hsv = np.array([27, 191, 255])
 
 def preprocess(image_rgb: np.ndarray) -> np.ndarray:
     """Returns a 2D array"""
