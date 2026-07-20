@@ -3,7 +3,7 @@ from typing import Tuple
 import numpy as np
 matrix_weight = 0.3
 
-def get_motor_left_matrix(shape: Tuple[int, int]) -> np.ndarray:
+def get_motor_right_matrix(shape: Tuple[int, int]) -> np.ndarray:
     res = np.zeros(shape=shape, dtype="float32")
 
     x_max = shape[1]
@@ -19,7 +19,7 @@ def get_motor_left_matrix(shape: Tuple[int, int]) -> np.ndarray:
     return res
 
 
-def get_motor_right_matrix(shape: Tuple[int, int]) -> np.ndarray:
+def get_motor_left_matrix(shape: Tuple[int, int]) -> np.ndarray:
     res = np.zeros(shape=shape, dtype="float32")
     
     x_max = shape[1]
